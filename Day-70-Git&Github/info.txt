@@ -1,0 +1,46 @@
+
+git commands
+ls
+mkdir filename
+code filename
+touch filename.txt
+cd filename
+git init
+pwd
+git status
+git add filename
+git commit -m "message in present tense"
+git log
+git add .
+git checkout filename
+git diff filename
+code filename.txt
+git remote add origin url-of-our-remote-repository-on-github
+git push -u origin main
+ls -a
+
+
+working directory, staging area, local repository, remote repository
+git add, commit, push
+
+gitignore
+DS-Store
+
+touch .gitignore
+git rm --cached -r .
+
+write files to be ignored in gitignore
+@comments
+*.txt
+
+virtual environment
+
+git clone url
+
+git branch branch name
+git branch
+git checkout branchname
+git merge branchname
+:q!
+
+https://learngitbranching.js.org/

@@ -1,0 +1,44 @@
+internet is based on client-server architecture
+
+A RESTful(Representational State Transfer) API(Application Programming Interface) is an architectural style for an application programming interface that uses HTTP requests to access and use data
+
+other are SOAP, GraphQL, Falcor
+
+rules to make api restful
+use HTTP Request verbs - get, post, put, patch, delete
+use specific pattern of Routes/Endpoint URLs
+
+
+http verbs, /articles, /articles/pss
+get, fetches all articles, fetches the article on pss
+post, creates one new article, -
+put, -, updates the article on pss
+patch, -, updates the article on pss,
+delete, deletes all the articles, deletes the article on pss
+
+
+put - send entire entry
+patch - send piece of data
+
+
+Encryption:
+password + key --Cipher Method-> CipherText
+
+Decryption:
+password <--Cipher Method- CipherText + key
+
+
+Hashing:
+password --Hash function--> Hash
+match hash in database
+hash table, dictionary
+
+salting
+password + random unique salt --Hash function--> Hash
+save salt and hash in db
+
+20 bn MD5 hashes/sec can be calculated by modern gpus
+17000 bcrypt hashes/sec are calculated by modern gpuc
+
+bcrypt salt rounds
+
